@@ -12,7 +12,8 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
-print("printf operator (%): " + "%s is 10, %s is 2.25, %s is I like turtles!" % (x, y, z))
+print("printf operator (%): " +
+      "%s is 10, %s is 2.25, %s is I like turtles!" % (x, y, z))
 print("----")
 
 # * %s - String (or any object with a string representation, like numbers)
