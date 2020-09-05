@@ -45,6 +45,5 @@ x = input("Enter comma-separated numbers: ").split(',')
 # What do you need between the square brackets to make it work?
 y = [number for number in x if int(number) % 2 == 0]
 
-print(f"Expected Outcome: ")
+print(f"Expected Outcome: Only Even Ints")
 print(f"Got: {y}")
-print("----")
