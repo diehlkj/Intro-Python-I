@@ -4,8 +4,10 @@
 # When you use a variable in a function, it's local in scope to the function.
 x = 12
 
+
 def change_x():
     x = 99
+
 
 change_x()
 
@@ -19,6 +21,10 @@ def outer():
     y = 120
 
     def inner():
+        # * Nonlocal variables are used in nested functions whose local scope is not defined.
+        # * This means that the variable can be neither in the local nor the global scope.
+        # * We use nonlocal keywords to create nonlocal variables.
+        nonlocal y
         y = 999
 
     inner()
