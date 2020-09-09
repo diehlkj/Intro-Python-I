@@ -81,4 +81,5 @@ d = {
 }
 
 # How do you have to modify the f4 call below to make this work?
+# * https://stackoverflow.com/questions/334655/passing-a-dictionary-to-a-function-as-keyword-parameters
 f4(**d)
